@@ -1,0 +1,610 @@
+body {
+    font-family: "Moonstserrat", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+#topbar {
+    background-color: #15477A;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+
+.top-contact,
+.sosmed {
+    list-style: none;
+}
+
+#topbar li {
+    display: inline-block;
+}
+
+#topbar li a {
+    color: #fff;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#topbar li a i {
+    color: #ffb61a;
+}
+
+#topbar .sosmed li a {
+    padding: 0 5px;
+}
+
+#topbar .sosmed li a i {
+    color: #fff;
+}
+
+
+/* css untuk header */
+
+header {
+    padding: 50px 0;
+}
+
+.brand {
+    display: flex;
+}
+
+.brand img {
+    margin-right: 20px;
+}
+
+.brand .brand-name h1 {
+    margin-top: 14px;
+    font-size: 25px;
+    color: #15477A;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.brand .brand-name h3 {
+    font-size: 18px;
+    font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
+}
+
+.pembungkus-searchbox {
+    display: flex;
+    align-items: center;
+}
+
+.searchbox {
+    width: 100%;
+}
+
+.btn.btn-utama {
+    background-color: #15477A;
+    color: #ffb61a;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn.btn-utama:hover {
+    background-color: #032649
+}
+
+/* css untuk menu/ navbar */
+.dropdown-item:hover {
+    color: #ffb61a;
+}
+
+.dropdown-item {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbar {
+    padding: 0;
+    border-bottom: 5px solid #ffb61a;
+}
+
+.nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+}
+
+.bg-biru {
+    background-color: #15477A !important;
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffb61a;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    background-color: #ffb61a;
+    color: #fff;
+}
+
+.active {
+    
+    color: #15477A;
+}
+
+li.nav-link.active a {
+    color: #15477A;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+/* css untuk slider hero area */
+
+#hero-area {
+    position: relative;
+}
+
+#hero-area .slider-item-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    text-align: center;
+    font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+}
+
+#slider-hero-nav .owl-prev,
+#slider-hero-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    border: none;
+    background-color: #15477A;
+    outline: none;
+    border: none;
+    padding: 12px 25px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    color: #fff;
+}
+
+#slider-hero-nav .owl-prev {
+    left: 0;
+    border-radius: 0 50px 50px 0;
+}
+
+#slider-hero-nav .owl-next {
+    right: 0px;
+    border-radius: 50px 0 0 50px;
+}
+
+#slider-hero-nav .owl-prev:hover,
+#slider-hero-nav .owl-next:hover {
+    cursor: pointer;
+    background-color: #ffb61a;
+    color: #000;
+}
+
+#hero-area .slider-item-content h2 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#hero-area .slider-item-content p {
+    font-size: 18px;
+}
+
+/* css untuk section sambutan*/
+.video-wrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#sambutan {
+    margin: 70px 0;
+}
+
+#sambutan h2 {
+    color: #15477A;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#sambutan h3 {
+    color: #15477A;
+    font-weight: 600;
+
+}
+
+#sambutan p {
+    font-size: 14px;
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+/* css untuk section prestasi */
+
+
+#prestasi {
+    min-height: 250px;
+}
+
+#prestasi .col-item-kanan {
+    padding: 20px 30px 20px 20px;
+}
+
+.section-item {
+    margin: 70px 0;
+    box-shadow: 0 0 15px rgb(0, 0, 0, 0.2);
+    min-height: 250px;
+    overflow: hidden;
+}
+
+.section-item-thumbnail{
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    max-height: 100%;
+
+}
+
+.section-title{
+    margin-bottom: 90px;
+    text-align: center;
+
+}
+.section-title h2 {
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    font-family: 28px;
+    text-transform: uppercase;
+    color: #15477A;
+    font-weight: 600;
+
+
+}
+
+.section-title h2:after{
+    position: absolute;
+    content: "";
+    width: 60%;
+    height: 3px;
+    background-color: #ffb61a;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.section-item-title{
+    border-bottom:  1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+.section-item-title h3{
+    font-size: 18px;
+    color: #15477A;
+    line-height: 25px;
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+.section-item-title span{
+    font-size: 12px;
+    color: #666;
+    font-weight: 500;
+
+}
+
+.section-item-title span i{
+    margin-right: 5px;
+}
+
+.section-item-title span:first-of-type{
+    margin-right: 15px;
+}
+
+.section-item-body p {
+    font-size: 12px;
+    line-height: 25px;
+    color: #666;
+}
+
+/* css untuk tombol selengkapnya */
+
+
+.tombol-selengkapnya{
+    text-align: center;
+}
+
+.btn.btn-more{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #15477A;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #15477A;
+    border-radius: 0;
+    padding: 10px 40px;
+    margin-bottom: 50px;
+    
+}
+
+.btn.btn-more:hover{
+    color: #fff;
+    background-color: #15477A;
+}
+
+/* css untuk footer */
+footer {
+    color: #fff;
+    background-color: #15477A;
+    padding: 80px 120px 10px;
+    margin-top: 50px;
+}
+
+footer .footer-col:first-of-type {
+    padding-right: 30px;
+}
+
+footer .brand {
+    display: flex;
+}
+
+footer .brand img{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+footer .brand h1 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+footer .tentang {
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 15px;
+    border-bottom:  1px dashed #fff;
+}
+
+footer .sosmed {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .sosmed li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer .sosmed li a {
+    color: #fff;
+    border:  1px solid #fff;
+    display: inline-block;
+    height:  50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 50px;
+} 
+
+footer .sosmed li a:hover{
+    color: #c7c7c7;
+}
+
+.footer-col h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.footer-col .alamat{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.footer-col .footer-nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col .kontak{
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-col .kontak i{
+    margin-right: 10px;
+}
+
+.footer-col .footer-nav li {
+    margin: 10px 0;
+}
+
+.footer-col .footer-nav a{
+    color: #fff;
+    font-size:  15px;
+    font-weight: 24px;
+    transition: all 0.5s;
+}
+
+.footer-col .footer-nav a:hover{
+    border-bottom: 1px dashed #fff;
+}
+
+.footer-copyright .container {
+    border-top: 1px solid #fff;
+    padding: 10px 0;
+}
+
+.footer-copyright {
+    margin-top:  60px;    
+}
+
+.footer-copyright h6 {
+    font-size: 16px;
+    color: #cecece;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.footer-copyright h6 a {
+    color: inherit;
+}
+
+.footer-copyright h6 a:hover{
+    border-bottom: 1px dashed #cecece;
+}
+
+/* css untuk slider */
+#pengurus .owl-item {
+    padding: 20px 10px;
+}
+.section-item-slider{
+    height: 360px;
+    box-shadow: 0 0 15px rgb(0, 0, 0, 0.2);
+    position: relative;
+}
+
+#pengurus .foto-pengurus{
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-item-caption{
+    position: absolute;
+    bottom: 0;
+    background: #fff;
+    color: #000;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    padding: 20px 10px 15px;
+}
+
+.section-item-caption h5{
+    color: #15477A;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section-item-caption h6 {
+    font-size: 14px;
+    color: #ffb61a;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-body{
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#slider-tools-1 .owl-next,
+#slider-tools-1 .owl-prev {
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    right: -60px;
+    z-index: 20;
+    background-color: #15477A;
+    border: none;
+    height: 35px;
+    width: 35px;
+    color: #fff;
+    border-radius: 50%;
+    outline: none;
+    box-shadow: 0 0 20px #ddd;
+    transition: background-color 0.3s;
+}
+
+#slider-tools-1 .owl-prev{
+        left: -60px;
+}
+
+#slider-tools-1 .owl-next:hover,
+#slider-tools-1 .owl-prev:hover{
+    cursor: pointer;
+    background-color:#ffb61a;
+    color: #15477A;
+}
+
+/*css untuk galeri */
+
+.video-galeri {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
+#slider-tools-2 .owl-next,
+#slider-tools-2 .owl-prev {
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    right: -60px;
+    z-index: 20;
+    background-color: #15477A;
+    border: none;
+    height: 35px;
+    width: 35px;
+    color: #fff;
+    border-radius: 50%;
+    outline: none;
+    box-shadow: 0 0 20px #ddd;
+    transition: background-color 0.3s;
+}
+
+#slider-tools-2 .owl-prev {
+    left: -60px;
+}
+
+#slider-tools-2 .owl-next:hover,
+#slider-tools-2 .owl-prev:hover {
+    cursor: pointer;
+    background-color: #ffb61a;
+    color: #15477A;
+}
+
+#galeri .owl-item {
+    padding: 20px 10px;
+}
+
+#galeri .foto-galeri {
+    height: 100%;
+    object-fit: cover;
+}
+
